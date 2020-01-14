@@ -20,6 +20,7 @@ body {
     font-family: sans-serif;
     background-color: rgb(5, 74, 77);
     position: relative;
+    
 }
 
 .maintext {
@@ -27,15 +28,17 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-#my-pic {
+.my-pic {
     position: relative;
-    width: 50%;
+    background-size: cover;
+    background: url(/src/img/kyle devine avatar.png);
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
     color: #FDF5DC;
     text-indent: 30px;
+    line-height: 25px:
 }
 
 #quiz-button {
@@ -44,5 +47,11 @@ p {
     font-size: 26px;
     cursor: pointer;
     border: solid 4px;
+    position: relative;     
+
+}
+
+#quiz-button:hover {
+    background-color: #bae9ff;
 
 }
