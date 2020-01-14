@@ -20,6 +20,11 @@ h4 {
     letter-spacing: 5px;
 }
 
+.my-pic {
+    display: block;
+    height: auto;
+}
+
 body {
     background-color: rgb(5, 74, 77);
     position: relative;
