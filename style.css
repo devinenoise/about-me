@@ -1,5 +1,5 @@
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
     
 }
 
@@ -8,11 +8,13 @@ h1 {
     color: #bae9ff;
     text-transform: uppercase;
     font-size: 36px;
+        
 }
 
 h4 {
     color: #bae9ff;
     font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
     
 }
 
@@ -26,6 +28,7 @@ body {
 .maintext {
     color: #FDF5DC;
     font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 }
 
 .my-pic {
@@ -38,7 +41,8 @@ p {
     font-family: 'Open Sans', sans-serif;
     color: #FDF5DC;
     text-indent: 30px;
-    line-height: 25px:
+    line-height: 26px;
+    font-size: 18px;
 }
 
 #quiz-button {
@@ -54,4 +58,9 @@ p {
 #quiz-button:hover {
     background-color: #bae9ff;
 
+}
+
+#lowtotal {
+    color: red;
+    
 }
