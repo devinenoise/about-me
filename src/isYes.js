@@ -3,3 +3,4 @@ export default function isYes(str) {
     if (myString === 'yes' || myString === 'y') return true;
     else return false;
 }
+

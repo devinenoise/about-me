@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
     <title>About Kyle Devine</title>
 </head>
 
@@ -14,7 +16,7 @@
         <h1> About Me </h1>
     </header>
 
-    <img id="my pic" src='\src\img\kyle devine avatar.png' alt="kyle">
+    <img id="my pic" src='/src/img/kyle devine avatar.png' alt="kyle">
     <div id="states">
 
         <article>
@@ -33,7 +35,7 @@
         </article>
 
         <h4>States I've Lived In:</h4>
-        <ul>
+        <ul class="maintext">
             <li>California</li>
             <li>North Carolina</li>
             <li>Montana</li>
@@ -43,7 +45,7 @@
 
     <div id="hobbies">
         <h4>Hobbies:</h4>
-        <ul>
+        <ul class="maintext">
             <li>Music</li>
             <li>Snowboarding</li>
             <li>Reading</li>
@@ -52,7 +54,7 @@
     </div>
     <div id="kids">
         <h4>My Kid's Names:</h4>
-        <ol>
+        <ol class="maintext">
             <li>Rhowan</li>
             <li>Harper</li>
             <li>Averee</li>
@@ -61,14 +63,14 @@
     </div>
 
 
-    <button id="quiz-button" type="button"><strong>Take The Quiz</strong></button>
+    <button id="quiz-button"><strong>Take The Quiz</strong></button>
     <br><br>
 
-    <div id="results">Your results:</div>
+    <div id="results" class="maintext">Your results:
 
-    <p id="total"></p>
+        <p id="total" class="maintext"></p>
 
-
+    </div>
     <script type="module" src="app.js"></script>
 </body>
 
