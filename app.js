@@ -7,7 +7,7 @@ const lowTotal = document.getElementById('lowtotal');
 function myPercent(count) {
     return Math.floor((count / 3) * 100);
 }
-
+//button event listener
 quizButton.addEventListener('click', () => {
     const name = prompt("What\'s your name?");
     const confirmation = confirm(`Hello, ${name}, are you ready to take the quiz?`);
