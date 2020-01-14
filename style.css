@@ -8,6 +8,7 @@ h1 {
     color: #bae9ff;
     text-transform: uppercase;
     font-size: 36px;
+    position: relative;
         
 }
 
@@ -15,11 +16,11 @@ h4 {
     color: #bae9ff;
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
-    
+    position: relative;
+    letter-spacing: 5px;
 }
 
 body {
-    font-family: sans-serif;
     background-color: rgb(5, 74, 77);
     position: relative;
     
@@ -31,18 +32,16 @@ body {
     font-size: 18px;
 }
 
-.my-pic {
-    position: relative;
-    background-size: cover;
-    background: url(/src/img/kyle devine avatar.png);
-}
-
 p {
     font-family: 'Open Sans', sans-serif;
     color: #FDF5DC;
     text-indent: 30px;
     line-height: 26px;
     font-size: 18px;
+}
+
+#results {
+    text-indent: 10px;
 }
 
 #quiz-button {
@@ -62,5 +61,5 @@ p {
 
 #lowtotal {
     color: red;
-    
+    font-style: italic;
 }

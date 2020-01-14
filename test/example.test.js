@@ -13,37 +13,70 @@ test('yes is true', assert => {
     //Act 
     // Call the function you're testing and set the result to a const
     const isTrue = isYes(input);
-
     //Assert
     // Make assertions about what is expected valid result
     assert.equal(isTrue, expected);
 });
 
+test('Y is true', assert => {
+    //Arrange    
+    const input = 'Y';
+    const expected = true;
+    //Act
+    const isTrue = isYes(input);
+    //Assert
+    assert.equal(isTrue, expected);
+});
+
+test('ya is true', assert => {
+    //Arrange    
+    const input = 'ya';
+    const expected = true;
+    //Act
+    const isTrue = isYes(input);
+    //Assert
+    assert.equal(isTrue, expected);
+});
+
+test('yea is true', assert => {
+    //Arrange    
+    const input = 'yea';
+    const expected = true;
+    //Act
+    const isTrue = isYes(input);
+    //Assert
+    assert.equal(isTrue, expected);
+});
+
 test('no is false', assert => {
+    //Arrange    
     const input = 'no';
     const expected = false;
+    //Act
+    const isFalse = isYes(input);
+    //Assert
+    assert.equal(isFalse, expected);
 
-    const isTrue = isYes(input);
+});
 
-    assert.equal(isTrue, expected);
+test('nah is false', assert => {
+    //Arrange    
+    const input = 'nah';
+    const expected = false;
+    //Act
+    const isFalse = isYes(input);
+    //Assert
+    assert.equal(isFalse, expected);
 
 });
 
 test('N is false', assert => {
+    //Arrange    
     const input = 'N';
     const expected = false;
+    //Act
+    const isFalse = isYes(input);
+    //Assert
+    assert.equal(isFalse, expected);
 
-    const isTrue = isYes(input);
-
-    assert.equal(isTrue, expected);
-
-});
-
-test('Y is true', assert => {
-    const input = 'Y';
-    const expected = true;
-
-    const isTrue = isYes(input);
-
-    assert.equal(isTrue, expected);
 });
