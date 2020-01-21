@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;   
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #bae9ff;
+    text-transform: uppercase;
+    font-size: 36px;
+    position: relative;       
+}
+
+h4 {
+    color: #bae9ff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    position: relative;
+    letter-spacing: 5px;
+}
+
+.my-pic {
+    display: block;
+    height: auto;
+}
+
+body {
+    background-color: rgb(5, 74, 77);
+    position: relative;  
+}
+
+.maintext {
+    color: #FDF5DC;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #FDF5DC;
+    text-indent: 30px;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+#quiz-button {
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 26px;
+    cursor: pointer;
+    border: solid 4px;
+    position: relative;     
+}
+
+#quiz-button:hover {
+    background-color: #bae9ff
+}
+
+#results {
+    text-indent: 10px;
+}
+
+#lowtotal {
+    color: red;
+    font-style: italic;
+}
